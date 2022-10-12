@@ -1,0 +1,2 @@
+public class OnionsDecorator {
+}
