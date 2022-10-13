@@ -1,5 +1,5 @@
 public interface IProduct {
     public String getName();
-    public float getCalories();
-    public float getPrice();
+    public double getCalories();
+    public double getPrice();
 }
