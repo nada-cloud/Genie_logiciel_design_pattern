@@ -1,8 +1,8 @@
 public abstract class PizzaDecorator extends Pizza {
     private IProduct aProduct;
 
-    PizzaDecorator (Pizza pizza){
-        aProduct=pizza;
+    PizzaDecorator(Pizza pizza) {
+        aProduct = pizza;
     }
 
     public IProduct getProduct() {

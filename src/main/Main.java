@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        // Write your code here
-        System.out.println("Hello World");
+        Pizza salamiPizza = new PizzaSalami();
+        IProduct salamiPizzaOption = new OnionsDecorator(salamiPizza);
+        System.out.println("calories = " + salamiPizzaOption.getCalories());
+        System.out.println("name = " + salamiPizzaOption.getName());
     }
 }
