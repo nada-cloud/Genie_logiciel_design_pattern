@@ -3,7 +3,7 @@ package pizza;
 public class PizzaSalami extends Pizza{
     
     public PizzaSalami() {
-        this.setName("Salami pizza.Pizza");
+        this.setName("Salami pizza");
     }
     @Override
     public double getCalories() {

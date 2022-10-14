@@ -3,7 +3,7 @@ package pizza;
 public class PizzaMargherita extends Pizza {
 
     public PizzaMargherita(){
-        this.setName("Margherita");
+        this.setName("Pizza Margherita");
     }
 
     @Override
