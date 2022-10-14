@@ -1,3 +1,5 @@
+package pizza;
+
 class HamDecorator extends PizzaDecorator{
     HamDecorator(Pizza pizza) {
         super(pizza);

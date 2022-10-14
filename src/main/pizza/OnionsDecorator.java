@@ -1,3 +1,5 @@
+package pizza;
+
 class OnionsDecorator extends PizzaDecorator {
     public OnionsDecorator(Pizza pizza) {
         super(pizza);

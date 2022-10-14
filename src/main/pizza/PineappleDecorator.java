@@ -1,7 +1,14 @@
+package pizza;
+
 class PineappleDecorator extends PizzaDecorator{
 
     PineappleDecorator(Pizza pizza) {
         super(pizza);
+    }
+
+    @Override
+    public String getName() {
+        return super.getName();
     }
 
     @Override

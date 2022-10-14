@@ -1,3 +1,5 @@
+package pizza;
+
 public class PizzaMargherita extends Pizza {
 
     public PizzaMargherita(){

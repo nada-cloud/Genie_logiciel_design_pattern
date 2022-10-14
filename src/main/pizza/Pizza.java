@@ -1,3 +1,5 @@
+package pizza;
+
 public abstract class Pizza implements IProduct {
     private String aName;
 
